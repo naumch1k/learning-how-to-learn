@@ -1,11 +1,10 @@
-*{
-  margin: 0;
-}
 
 .page{
+  margin: 0 auto;
   width: 100%;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   min-width: 1100px;
+  max-width: 1600px;
 }
 
 .header{
@@ -33,9 +32,8 @@
   right: 0;
   top: 64px;
   background: #2F80ED;
-  height: 80%;
-  width: 40%;
-  z-index: 0;
+  width:568px;
+  height: 568px;
 }
 
 .header__subtitle{
@@ -58,8 +56,10 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 0;
-  width: 765px;
+  max-width:957px ;
+  min-width: 913px;
+  min-height: 756px;
+  max-height: 800px;
 }
 
 .content{
@@ -71,8 +71,6 @@
 
 .two-columns{
   display: flex;
-  position: relative;
-  z-index: 2;
   width: 80%;
   background: white;
   padding: 100px 0;
@@ -81,7 +79,6 @@
 .two-columns__brief{
   color: #2F80ED;
   width: 175px;
-  justify-content: center;
   margin: 0 auto;
   font-size: 18px;
   font-weight: normal;
@@ -91,8 +88,6 @@
 .two-columns__main-text{
   width: 60%;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -113,7 +108,6 @@
   color: white;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
   background: #1F1F1F;
   position: relative;
   overflow: hidden;
@@ -164,14 +158,12 @@
 .table__heading{
   font-size: 24px;
   line-height: 1.15;
-  margin-bottom: 20px;
   margin: 0;
-
+  margin-bottom: 20px;
 }
 
 .kaufman__triangle{
   position:absolute;
-  z-index: 0;
   right: 0;
   top: -25px;
   transform: rotate(30deg);
