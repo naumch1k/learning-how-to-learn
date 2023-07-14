@@ -76,6 +76,12 @@
   color: #2F80ED ;
 }
 
+
+.header__link:hover{
+opacity: .7;
+transition: opacity .3s ease;
+}
+
 .header__main-illustration{
   position: absolute;
   bottom: 0;
@@ -140,6 +146,87 @@ animation: rotation 20s linear infinite;
   line-height: 34px;
 }
 
+.feynman{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  padding-top: 100px;
+  min-height: 790px;
+  background-color: #f2f2f2;
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  background-position: bottom left;
+
+}
+
+.feynman__title{
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 100px;
+  font-weight: 600px;
+  width: 775px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.feynman__subtitle{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link{
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  color: #2F80ED;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link:hover{
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
+
+.techniques{
+  margin: 0 auto;
+  padding: 0;
+
+
+}
+
+
+.section-title{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.15;
+  width: 60%;
+
+}
+
+.section-subtitle{
+  margin: 0 auto;
+  padding: 0;
+  font-size: 24px;
+  line-height: 34px;
+  width: 60%;
+  text-align: center;
+}
+
 .oakley{
   background: #f2f2f2;
 }
@@ -147,7 +234,6 @@ animation: rotation 20s linear infinite;
 .kaufman{
   width:100% ;
   display: flex;
-  color: white;
   align-items: center;
   flex-direction: column;
   background: #1F1F1F;
@@ -156,21 +242,20 @@ animation: rotation 20s linear infinite;
   padding: 90px 0;
 }
 
-.section-title{
-  text-align: center;
-  font-size: 60px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  line-height: 1.15;
-  width: 60%;
+
+.title_color_white{
   z-index: 2;
+  color: white;
+
 }
 
-.section-subtitle{
-  font-size: 24px;
-  line-height: 34px;
+
+
+.subtitle_color_white{
   margin-bottom: 80px;
   z-index: 2;
+  color: white;
+
 }
 
 .table{
@@ -182,6 +267,7 @@ animation: rotation 20s linear infinite;
   width: 70%;
   position: relative;
   z-index: 2;
+  color: white;
 }
 
 .table__cell{
@@ -210,6 +296,40 @@ animation: rotation 20s linear infinite;
   top: -25px;
   transform: rotate(30deg);
 }
+
+.resources{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  padding: 100px 0 217px;
+  background-color: #fff;
+
+
+}
+
+.resources__logo-zone{
+  margin: 0 auto;
+  padding: 0;
+  width: 1100px;
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resources__logo{
+  margin: 0 auto;
+  padding: 0;
+  width:270px ;
+  height: 38px;
+}
+
+.resources__logo:hover{
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
+
 
 .footer{
   margin: 0 auto;
