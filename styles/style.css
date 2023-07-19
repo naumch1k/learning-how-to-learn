@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .page{
   margin: 0 auto;
   padding: 0;
@@ -20,7 +24,7 @@
 }
 
 .logo{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width:143px;
   height: 32px;
@@ -30,7 +34,7 @@
 }
 
 .logo_place_header{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   background-image: url(../images/logo_place_header.png);
   position: absolute;
@@ -40,7 +44,7 @@
 }
 
 .header__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 102px;
   font-weight:600;
@@ -52,7 +56,7 @@
 }
 
 .header__square-pic{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position: absolute;
   right: 0;
@@ -63,7 +67,7 @@
 }
 
 .header__subtitle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position: absolute;
   font-size: 18px;
@@ -74,7 +78,7 @@
 }
 
 .header__link{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   text-decoration: none;
   font-size: 18px;
@@ -87,19 +91,17 @@
 }
 
 .header__main-illustration{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position: absolute;
   bottom: 0;
   right: 0;
-  max-width:957px ;
-  min-width: 913px;
-  min-height: 756px;
-  max-height: 800px;
+  width:765px;
+  height: 708px;
 }
 
 .rotation{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   animation: rotation 20s linear infinite;
 }
@@ -132,7 +134,7 @@
 }
 
 .two-columns__brief{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   color: #2F80ED;
   width: 175px;
@@ -142,10 +144,11 @@
 }
 
 .two-columns__main-text{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  width: 60%;
+  width: 80%;
   flex-direction: column;
+  min-width: 784px;
 }
 
 .two-columns__span-accent{
@@ -153,7 +156,7 @@
 }
 
 .two-columns__paragraph{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 24px;
   margin-bottom: 30px;
@@ -172,21 +175,24 @@
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-position: bottom left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feynman__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   line-height: 1.15;
   font-size: 100px;
-  font-weight: 600px;
+  font-weight: 600;
   width: 775px;
   text-align: center;
   margin-bottom: 70px;
 }
 
 .feynman__subtitle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   text-align: center;
   line-height: 51px;
@@ -195,7 +201,7 @@
 }
 
 .feynman__link{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position: absolute;
   top: 50%;
@@ -217,10 +223,13 @@
   padding: 0;
   width: 80%;
   padding: 100px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cards{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 920px;
   display: grid;
@@ -229,7 +238,7 @@
 }
 
 .cards__item{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -237,7 +246,7 @@
 }
 
 .cards__image{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 160px;
   height: 160px;
@@ -245,7 +254,7 @@
 }
 
 .cards__title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -255,7 +264,7 @@
 }
 
 .cards__description{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   margin-top: 16px;
   line-height: 23px;
@@ -265,7 +274,7 @@
 }
 
 .section-title{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   text-align: center;
   font-size: 60px;
@@ -276,7 +285,7 @@
 }
 
 .section-subtitle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 24px;
   line-height: 34px;
@@ -314,7 +323,7 @@
 }
 
 .table{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   display:grid;
   grid-template-columns:repeat(5, 1fr);
@@ -328,7 +337,7 @@
 }
 
 .table__cell{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -336,7 +345,7 @@
 }
 
 .table__text{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   text-align: start;
   font-size: 20px;
@@ -344,7 +353,7 @@
 }
 
 .table__heading{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 24px;
   line-height: 1.15;
@@ -352,7 +361,7 @@
 }
 
 .kaufman__triangle{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   position:absolute;
   right: 0;
@@ -361,25 +370,29 @@
 }
 
 .resources{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 100%;
   padding: 100px 0 217px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resources__logo-zone{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 1100px;
   display: flex;
   margin-top: 80px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .resources__logo{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width:270px ;
   height: 38px;
@@ -400,7 +413,7 @@
 }
 
 .footer__content{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   max-width: 1100px;
   display: flex;
