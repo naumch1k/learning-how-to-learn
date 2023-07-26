@@ -21,4 +21,4 @@ charset = utf-8 # Possible values - latin1, utf-8, utf-16be, utf-16le
 trim_trailing_whitespace = true # Possible values - true, false
 
 # Denotes whether file should end with a newline
-insert_final_newline = true # Possible values - true, false
+insert_final_newline = false # Possible values - true, false
