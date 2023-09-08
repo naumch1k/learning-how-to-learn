@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 790px;
     height: 100vh;
-    position: relative;
     background-color: rgb(242, 242, 242);
     background-image: url("../../images/feynman.png");
     background-repeat: no-repeat;
