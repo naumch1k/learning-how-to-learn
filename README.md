@@ -4,7 +4,7 @@
 [GitHub Pages Link](https://sergeyalexandrowich.github.io/learning-how-to-learn/)
 
 ## Description
-"Learning how to learn" is a  project created as a part of a study at [Palianytsia Game Dev Studio](https://pgds.xyz/) - a single-page website about studying methods
+"Learning how to learn" is a  project created as a part of a study at [Palianytsia Foundation](https://pgds.xyz/) - a single-page website about studying methods
 
 ## Technologies
 <img src="https://img.shields.io/badge/HTML5-blue?style=for-the-badge&logo=HTML5&logoColor=black"/><img src="https://img.shields.io/badge/CSS3-red?style=for-the-badge&logo=CSS3&logoColor=ЦВЕТ ЛОГОТИПА"/> 
