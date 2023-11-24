@@ -1,0 +1,7 @@
+.kaufman__triangle img{
+    position: absolute;
+    right: -200px;
+    top: -4px;
+    transform: rotate(27deg);
+    z-index: -1;
+}

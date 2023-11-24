@@ -1,0 +1,27 @@
+@import url(../blocks/description/__two-columns.css);
+@import url(../blocks/description/__brief.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__main-text.css);
+
+@import url(../blocks/footer/__author.css);
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/header/__link.css);
+@import url(../blocks/header/__main-illustration.css);
+@import url(../blocks/header/__square-pic.css);
+@import url(../blocks/header/__subtitle.css);
+@import url(../blocks/header/__title.css);
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/kaufman/__section-subtitle.css);
+@import url(../blocks/kaufman/__section-title.css);
+@import url(../blocks/kaufman/__table.css);
+@import url(../blocks/kaufman/__triangle.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__cell.css);
+@import url(../blocks/kaufman/__second-row.css);
+@import url(../blocks/kaufman/__first-row.css);
+@import url(../blocks/kaufman/__heading.css);
+@import url(../blocks/kaufman/__text.css);
+
+@import url(../blocks/page/page.css);
