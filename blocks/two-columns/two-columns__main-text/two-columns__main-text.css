@@ -1,9 +1,9 @@
-.main-text{
+.two-columns__main-text{
     font-size: 24px;
     font-weight: normal;
     line-height: 34px;
 }
 
-.main-text span{
+.two-columns__main-text span{
     font-weight: 600;
 }

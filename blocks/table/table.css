@@ -1,0 +1,8 @@
+.table{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 80px;
+z-index: 2;
+margin-top: 80px;
+}
