@@ -1,0 +1,9 @@
+.learning-techniques{
+    background-color: #fff;
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
