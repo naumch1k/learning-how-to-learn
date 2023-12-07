@@ -1,6 +1,7 @@
 .feynman{
     min-height: 790px;
-    height: 897px;
+    height: 900px;
+    /* height: 897px; */
     background-color: #f2f2f2;
     display: flex;
     align-items: center;
